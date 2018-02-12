@@ -6,6 +6,13 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: npm install jest
-      - run: npm install front-matter
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{checksum "package.json"}}
+            - v1-dependencies-
+      - run: npm install
+      - save_cache:
+          path:
+            - node_mpdules
+          key: v1-dependencies-{{checksum "package.json"}}
       - run: npm test

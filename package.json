@@ -1,0 +1,29 @@
+{
+  "name": "rainbow-code",
+  "version": "0.0.1",
+  "description": "Videos on how to code! The Coding Train features \"creative coding\" video tutorials with new ones released every week.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingTrain/Rainbow-Code.git"
+  },
+  "keywords": [
+    "CodingTrain",
+    "Coding",
+    "CreativeCoding",
+    "Shiffman"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingTrain/Rainbow-Code/issues"
+  },
+  "homepage": "thecodingtrain.com",
+  "dependencies": {
+    "front-matter": "^2.3.0",
+    "jest": "^22.2.2"
+  }
+}

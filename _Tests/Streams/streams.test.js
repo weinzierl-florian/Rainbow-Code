@@ -14,6 +14,6 @@ test('parse yaml delineatead by `---`', () => {
 		expect(content).toHaveProperty('video_id')
 		expect(content).toHaveProperty('topics')
 		expect(content).toHaveProperty('links')
-		expect(content).toHaveProperty('video')
+		expect(content).toHaveProperty('videos')
 	})
 })

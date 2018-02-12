@@ -2,7 +2,7 @@
   "name": "rainbow-code",
   "version": "0.0.1",
   "description": "Videos on how to code! The Coding Train features \"creative coding\" video tutorials with new ones released every week.",
-  "main": "index.js",
+  "main": "_Tests/Streams/streams.test.js",
   "scripts": {
     "test": "jest"
   },

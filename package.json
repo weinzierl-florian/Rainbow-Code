@@ -24,6 +24,7 @@
   "homepage": "thecodingtrain.com",
   "dependencies": {
     "front-matter": "^2.3.0",
-    "jest": "^22.2.2"
+    "jest": "^22.2.2",
+    "jest-changed-files": "^22.2.0"
   }
 }

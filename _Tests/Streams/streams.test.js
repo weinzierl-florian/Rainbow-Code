@@ -1,8 +1,8 @@
 var fm = require('front-matter')
 var fs = require('fs')
-var {getChangedFilesForRoots} = require('jest-changed-files');
+const {getChangedFilesForRoots} = require('jest-changed-files')
 
-getChangedFilesForRoots(['./'], {lastCommit: true,}).then(result => console.log(result.changedFiles));
+getChangedFilesForRoots(['./'], {lastCommit: true,}).then(result => console.log(result.changedFiles))
 test('parse yaml delineatead by `---`', () => {
 	fs.readFile('_Streams/109-webgl-with-p5js.md', 'utf8', function(err, data){
 		var object = fm(data)
